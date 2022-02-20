@@ -44,6 +44,9 @@ def contact():
             smtp_msg.body = msg
             mail.send(smtp_msg)
 
+            flash("Form Submitted Successfully","success")
+            return redirect(url_for('home'))
+
     return render_template('contact.html',form=cform)
 
 ###

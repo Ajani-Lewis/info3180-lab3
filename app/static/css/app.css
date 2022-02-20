@@ -24,3 +24,7 @@ input{
 textarea{
     width: 300px;
 }
+
+.success{
+    color: dodgerblue;
+}
